@@ -1,6 +1,6 @@
 title: CNE23 Sem01
 description: The first semseter of the 23rd edition of the CNE.
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 url: https://cloud-native-engineering.github.io/sem01_aws
 
