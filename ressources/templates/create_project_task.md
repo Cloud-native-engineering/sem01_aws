@@ -1,3 +1,8 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Erstellen eines Projekttask
 
 Es wurde eine Vorlage für die Erstellung eines Projekttask erstellt. Diese Vorlage kann in einem neuen Issue verwendet werden.

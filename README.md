@@ -1,10 +1,10 @@
 # Semesterarbeit 01 - Learn AWS
 
-[Beschreibung]
+Amazon Web Services, auch AWS genannt, ist eine der führenden Cloud-Plattformen. Die Möglichkeiten sind nahezu unbegrenzt. Damit man diese wichtige Technologie verwenden kann, benötigt man vertiefte Kenntnisse über die Stärken und Schwächen von AWS. Der Lernprozess zum optimalen Umgang von AWS benötigt Zeit und Erfahrung. Um den Wissensstand vorweisen zu können, bietet Amazon verschiede Zertifizierungen an. Im Rahmen dieser Semesterarbeit will ich mich bestmöglich für die «AWS Certified Cloud Practitioner» Zertifizierung vorbereiten und meinen Lernprozess dokumentieren. Dies erreiche ich mithilfe von Zusammenfassungen und der Umsetzung von eigenen Hands-on-Projekte.
 
 ## Inhaltsverzeichnis
 
-[1. Einstieg](Change_ME)  
+[1. Einleitung](index.md)  
 [2. Projektmanagement](Change_ME)  
 [2.1 Projektantrag](Change_ME)  
 [2.2 Systemabgrenzungen](Change_ME)  
