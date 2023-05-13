@@ -5,4 +5,4 @@ remote_theme: just-the-docs/just-the-docs
 url: https://cloud-native-engineering.github.io/sem01_aws
 
 aux_links:
-  Template Repository: https://github.com/Cloud-native-engineering/just-the-docs
+  Template Repository: https://github.com/just-the-docs/just-the-docs-template
