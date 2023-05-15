@@ -51,7 +51,7 @@ Der Scrum Master ist der Coach des Agilen Teams. Er führt das Team und vertritt
 
 ### Subject Matter Expert (SME)
 
-Ein "Subject Matter Expert" verfügt über ein grosses Fachwissen in einem Teilbereich. Dieses Fachwiessen wird im Agilen Scrum Team benötigt. Somit ist der Subject Matter Expert ein Fachexperte in seinem Fach.
+Ein "Subject Matter Expert" verfügt über ein grosses Fachwissen in einem Teilbereich. Dieses Fachwissen wird im Agilen Scrum Team benötigt. Somit ist der Subject Matter Expert ein Fachexperte in seinem Fach.
 
 ### Agile Team
 
