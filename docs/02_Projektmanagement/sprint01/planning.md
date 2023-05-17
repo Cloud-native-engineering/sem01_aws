@@ -8,8 +8,9 @@ nav_order: 1
 
 # 6.1 Sprint Planning
 
-| **Sprint theme** |   |
+|                  |   |
 |------------------|---|
+| **Sprint theme** |   |
 | **Start date**   |   |
 | **End date**     |   |
 
