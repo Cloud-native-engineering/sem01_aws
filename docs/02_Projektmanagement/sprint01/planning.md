@@ -8,12 +8,10 @@ nav_order: 1
 
 # 6.1 Sprint Planning
 
-|                  |   |
-|------------------|---|
 | **Sprint theme** |   |
-| **Start date**   |   |
-| **End date**     |   |
-
+|:----------------:|---|
+|  **Start date**  |   |
+|   **End date**   |   |
 ## Sprint Ziele
 
 ## Scrum Board

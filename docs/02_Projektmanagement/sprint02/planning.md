@@ -9,9 +9,9 @@ nav_order: 1
 # 7.1 Sprint Planning
 
 | **Sprint theme** |   |
-|------------------|---|
-| **Start date**   |   |
-| **End date**     |   |
+|:----------------:|---|
+|  **Start date**  |   |
+|   **End date**   |   |
 
 ## Sprint Ziele
 
