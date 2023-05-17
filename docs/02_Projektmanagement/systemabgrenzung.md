@@ -9,15 +9,13 @@ nav_order: 2
 
 Die folgende Darstellung zeigt die Technik eines Systemdenkens nach SEUSAG.
 
-![2023_SEUSAG](../../ressources/images/2023_seusag.svg)
+![2023_SEUSAG](../../ressources/images/2023_seusag_projekt.svg)
 
 ## (S) Systemgrenze bilden
 
 Folgende Systeme und Elemente die **direkt** mit der Semesterarbeit zusammenhängen, wurden innerhalb der Systemgrenze definiert:
 
 - Projektteam
-- Zeitmanagement
-- Laptop
 - Hobby
 - Beruf
 - Weiterbildung
@@ -25,7 +23,6 @@ Folgende Systeme und Elemente die **direkt** mit der Semesterarbeit zusammenhän
 
 Folgende Systeme und Element die **indirekt** mit der Semesterarbeit zusammenhängen wurden auserhalb der Systemgrenze definiert:
 
-- Internet Services (github.com, Microsoft 365, etc.)
 - Verein
 - Arbeitgeber
 - Technische Berufsschule Zürich, TBZ
@@ -41,8 +38,6 @@ Nichtbestandteil dieser Arbeit ist das Erlernen von Grundkentnisse in der Inform
 
 Die Arbeit beinhaltet folgende Unter- und Teilsysteme
 
-- Internet Serivces
-  - Folgende Dienste aus dem Internet können nicht beinflusst werde. Da es sich aber um grössere Tools handelt sind diese recht gut verfügbar.
 - Leitungsausschuss
   - Der Leitungsausschuss gehört direkt zur Semesterarbeit und wurde deshalb auch als Untersystem erfasst.
 
@@ -53,8 +48,6 @@ Die Schnittstellen wurde mittels einer Verbindung im oberstehenden Diagramm defi
 ## (A) Analyse der Unter- und Teilsysteme
 
 Auf oberstehenden Abbildung können die Schnittstellen sehr gut erkannt werden. Darin Sticht das Projektteam besonders heraus. Dieses ist sozusagen der Mittelpunkt dieser Arbeit. Auf dieses Gruppe gibt es sehr viele Einflussfaktoren, welche gut miteinander gemanaged werden müssen.
-
-Das Umsystem "Internet Services" umfasst diverse Zusammenhänge mit Online Dienste. Auf die verfügbarkeit dieser Dienste kann nicht Einfluss genommen werden. Dies ist aber nicht weiter schlimm, da die Eintrittswahrscheindlichkeit sehr klein ist.
 
 ## (G) Gemeinsamkeiten ermitteln
 
