@@ -8,10 +8,10 @@ nav_order: 1
 
 # 7.1 Sprint Planning
 
-| **Sprint theme** |   |
-|:----------------:|---|
-|  **Start date**  |   |
-|   **End date**   |   |
+| **Sprint theme** | Learningpath |
+| :--------------: | ------------ |
+|  **Start date**  | 16.05.2023   |
+|   **End date**   | 14.06.2023   |
 
 ## Sprint Ziele
 

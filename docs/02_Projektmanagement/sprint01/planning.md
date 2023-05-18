@@ -8,11 +8,20 @@ nav_order: 1
 
 # 6.1 Sprint Planning
 
-| **Sprint theme** |   |
-|:----------------:|---|
-|  **Start date**  |   |
-|   **End date**   |   |
+| **Sprint theme** | Projektstart |
+| :--------------: | ------------ |
+|  **Start date**  | 20.04.2023   |
+|   **End date**   | 16.05.2023   |
+
 ## Sprint Ziele
+
+- Projektstart
+- Erstellen der Grundstruktur des Repositorys
+- Erstellen von Task & PullRequest Vorlagen
+- Meilenstein Fertigstellung der Vorarbeiten abschliessen
+- Dokumentation Projektmanagement erstellen
+- Tickets erstellen für die Projektarbeit
+- Einrichten von GitHub Actions / Projects / Pages
 
 ## Scrum Board
 

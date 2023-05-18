@@ -8,10 +8,10 @@ nav_order: 1
 
 # 8.1 Sprint Planning
 
-| **Sprint theme** |   |
-|:----------------:|---|
-|  **Start date**  |   |
-|   **End date**   |   |
+| **Sprint theme** | Hands-on-Projekte |
+| :--------------: | ----------------- |
+|  **Start date**  | 14.06.2023        |
+|   **End date**   | 12.07.2023        |
 
 ## Sprint Ziele
 
