@@ -24,6 +24,10 @@ nav_order: 3
 
 ![2023_Projektplanung_Sprint01](../../../ressources/images/20230515_Projektplanung_Sprint01.png)
 
+| **Total Tickets** | **Abgeschlossene Tickets** | **Nicht abgeschlossene Tickets** | **Prozentsatz** |
+| :---------------: | -------------------------- | -------------------------------- | --------------- |
+|        15         | 13                         | 2                                | 13.33%          |
+
 ## Anpassungen am Projekt?
 
 Es werden keine Anpassungen am Projekt vorgenommen.

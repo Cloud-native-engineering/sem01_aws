@@ -16,6 +16,10 @@ nav_order: 1
 
 ## Status Project Board
 
+| **Total Tickets** | **Abgeschlossene Tickets** | **Nicht abgeschlossene Tickets** | **Prozentsatz** |
+| :---------------: | -------------------------- | -------------------------------- | --------------- |
+|                   |                            |                                  |                 |
+
 ## Anpassungen am Projekt?
 
 ## Notizen / Anmerkungen
