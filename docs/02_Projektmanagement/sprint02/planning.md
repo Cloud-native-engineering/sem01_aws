@@ -15,6 +15,11 @@ nav_order: 1
 
 ## Sprint Ziele
 
+- Durcharbeiten des Udemy Kurses
+- Dokumentation der AWS Cloud
+- AWS Academy Kurs abschliessen
+- Beginn mit Hands-on-Projekte
+
 ## Scrum Board
 
 - [GitHub Projects](https://github.com/orgs/Cloud-native-engineering/projects/3)
