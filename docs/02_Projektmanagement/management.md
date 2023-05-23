@@ -38,7 +38,7 @@ Jedes Ticket hat folgende Werte gesetzt und definiert.
 <details>
   <summary>Beispiel eines Tickets</summary>
 
-  ![2023_Ticket](../../ressources/images/2023_Ticket.png)
+  <img src="../../ressources/images/2023_Ticket.png" alt="2023_Ticket">
 
   Damit die Tickets immer den gleichen Aufbau haben wurde ein Template erstellt und eingerichtet.
 </details>
