@@ -1,8 +1,8 @@
 ---
 layout: default
-title: 2.5 Tools & Software
+title: 2.6 Tools & Software
 parent: 2. Projektmanagement
-nav_order: 5
+nav_order: 6
 ---
 
 # 2.X Tools & Software
