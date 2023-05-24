@@ -2,7 +2,7 @@
 layout: default
 title: 2.5 GIT Branching Konzept
 parent: 2. Projektmanagement
-nav_order: 2
+nav_order: 4
 ---
 
 # 2.5 GIT Branching Konzept

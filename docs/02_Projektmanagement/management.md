@@ -1,13 +1,14 @@
 ---
 layout: default
-title: 2.1 Tools & Software
+title: 2.5 Tools & Software
 parent: 2. Projektmanagement
-nav_order: 1
+nav_order: 5
 ---
 
 # 2.X Tools & Software
 
-Diese Semesterarbeit wird mi
+Diese Semesterarbeit wird mit verschieden Tools unterstützt und ergänzt.
+
 ## 2.X.X GitHub Projects
 Die Tickets und das Zeitmanagement wird umgesetzt mit Hilfe von [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects). Da
 
