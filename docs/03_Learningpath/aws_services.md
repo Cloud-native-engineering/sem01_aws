@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 3.X AWS Services
+title: 3.4 AWS Services
 parent: 3. Learningpath
-nav_order: 5
+nav_order: 4
 ---
 
-# 3.5 AWS Services
+# 3.4 AWS Services
 
 Amazon bietet eine Unzahl an Services an. Für jedes Problem kann ein Service gefunden werden, welche dabei unterstützt das Problem zu lösen. Folgend sind die häufigsten AWS Service aufgelistet:
 

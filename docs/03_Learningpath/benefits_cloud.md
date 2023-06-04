@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 3.X Benefits of the cloud
+title: 3.5 Benefits of the cloud
 parent: 3. Learningpath
 nav_order: 5
 ---
 
-# 3.X Benefits of the cloud
+# 3.5 Benefits of the cloud
 
 Die AWS Cloud hat sechs Mehrwerte für die Cloud aufgestellt. Diese Überbegriffe wurden auf Englisch gelassen, da diese in der Zertifizierung so referenziert werden.
 

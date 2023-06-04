@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 3.X Shared Responsibility Model
+title: 3.6 Shared Responsibility Model
 parent: 3. Learningpath
-nav_order: 5
+nav_order: 6
 ---
 
-# 3.X Shared Responsibility Model
+# 3.6 Shared Responsibility Model
 
 Bei jedem Betrieb eines Services müssen die Verantwortlichkeiten geklärt sein. So ist es auch bei der Benutzung der AWS Cloud. Amazon hat dazu folgendes Model erstellt. Es Beschreibt die Verantwortung zischen dem Kunde der AWS cloud und AWS, welche die Cloud Infrastruktur betreibt.
 

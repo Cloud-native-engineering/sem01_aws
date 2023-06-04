@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 3.X Kosten der Cloud
+title: 3.7 Kosten der Cloud
 parent: 3. Learningpath
-nav_order: 5
+nav_order: 7
 ---
 
-# 3.X Kosten der Cloud - Pay-as-you-go
+# 3.7 Kosten der Cloud - Pay-as-you-go
 
 Die AWS Cloud hat folgende Grundsätze nach welchem Kosten entstehen und abgerechnete werden:
 
