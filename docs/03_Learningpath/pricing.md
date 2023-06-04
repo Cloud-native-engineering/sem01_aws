@@ -18,3 +18,9 @@ Die AWS Cloud hat folgende Grundsätze nach welchem Kosten entstehen und abgerec
   - Out-Bound Traffic wird verrechnet
 
 Dadurch, dass folgender Grundsatz angewendet wird, werden nur Verbrauchte Ressourcen verrechnet. Es müssen somit keine grösseren Anschaffungen getätigt werden und der Benutzer kann Kosten sparen.
+
+## 3.7.1 AWS Pricing Calculator
+
+Der AWS Pricing Calculator ermöglicht kosten zu berechnen. Es ist möglich, Server, Storage, beziehungsweise die Kosten zu jedem AWS Service zu berechnen. Es können auch verschiedene Services zusammengenommen werden, damit die Kosten für ein ganzes IT-System berechnet werden können.
+
+- [AWS Pricing Calculator](https://calculator.aws/)

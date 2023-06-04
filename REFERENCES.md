@@ -8,6 +8,10 @@
 - Amazon - (2023.05.24), amazon.com, [Nachhaltigkeit der cloud](https://nachhaltigkeit.aboutamazon.de/umwelt/die-cloud)
 - Amazon - (2023.06.01), amazon.com, [Six advantages of cloud computing](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html)
 - Amazon - (2023.06.01), amazon.com, [AWS Services](https://aws.amazon.com/de/products/)
+- Amazon - (2023.06.01), amazon.com, [AWS Pricing Calculator](https://calculator.aws/)
+- Udemy - (2023.05.01), udemy.com, [Ultimate AWS Certified Practitioner - Kurs](https://www.udemy.com/course/aws-certified-cloud-practitioner-new)
+- AWS Academy - (2023.05.01), awsacademy.com, [AWS Academy Cloud Foundations - Kurs](https://awsacademy.instructure.com)
+- ITCNE AWS-Base - (2023.03.01), gitlab.com, [AWS-Base](https://gitlab.com/ch-tbz-wb/Stud/aws-base)
 
 
 ---
