@@ -1,9 +1,10 @@
 ---
 layout: default
-title: 4.1 Was ist Cloud Computing
-parent: 4. Zertifizierungsfragen
+title: 4.2.1 What's cloud computing
+parent: 4.2 Udemy Ultimate AWS Certified Cloud Practitioner
+grand_parent: 4. Zertifizierungsfragen 
 nav_order: 1
----
+--- 
 
 # 4.1 Was ist Cloud Computing
 
@@ -29,7 +30,7 @@ nav_order: 1
 1. Discounts over time
 2. Pay-as-you-go pricing
 3. Pay once a year
-4. Flat-rate pricinv
+4. Flat-rate pricing
 
 <details>
   <summary>Lösung</summary>
