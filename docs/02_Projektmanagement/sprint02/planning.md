@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 7.1 PI Planning
-parent: 7. Sprint 02
+title: 2.8.1 Sprint Planning
+parent: 2.8 Sprint 02
 grand_parent: 2. Projektmanagement
 nav_order: 1
 ---
 
-# 7.1 Sprint Planning
+# 2.8.1 Sprint Planning
 
 | **Sprint theme** | Learningpath |
 | :--------------: | ------------ |

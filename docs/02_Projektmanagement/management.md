@@ -1,14 +1,15 @@
 ---
 layout: default
-title: 2.1 Tools & Software
+title: 2.6 Tools & Software
 parent: 2. Projektmanagement
-nav_order: 1
+nav_order: 6
 ---
 
-# 2.X Tools & Software
+# 2.6 Tools & Software
 
-Diese Semesterarbeit wird mi
-## 2.X.X GitHub Projects
+Diese Semesterarbeit wird mit verschieden Tools unterstützt und ergänzt.
+
+## 2.6.X GitHub Projects
 Die Tickets und das Zeitmanagement wird umgesetzt mit Hilfe von [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects). Da
 
 ### Sprint Board
@@ -38,7 +39,7 @@ Jedes Ticket hat folgende Werte gesetzt und definiert.
 <details>
   <summary>Beispiel eines Tickets</summary>
 
-  ![2023_Ticket](../../ressources/images/2023_Ticket.png)
+  <img src="../../ressources/images/2023_Ticket.png" alt="2023_Ticket">
 
   Damit die Tickets immer den gleichen Aufbau haben wurde ein Template erstellt und eingerichtet.
 </details>

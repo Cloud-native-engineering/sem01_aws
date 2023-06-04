@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 7.3 Sprint Review
-parent: 7. Sprint 02
+title: 2.8.3 Sprint Review
+parent: 2.8 Sprint 02
 grand_parent: 2. Projektmanagement
-nav_order: 1
+nav_order: 3
 ---
 
-# 7.3 Sprint Review
+# 2.8.3 Sprint Review
 
 ## Review Sprint Ziele
 

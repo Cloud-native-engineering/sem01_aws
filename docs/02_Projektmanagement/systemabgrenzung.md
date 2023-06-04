@@ -2,7 +2,7 @@
 layout: default
 title: 2.3 Systemabrenzung
 parent: 2. Projektmanagement
-nav_order: 2
+nav_order: 3
 ---
 
 # 2.3 Systemabgrenzung
