@@ -5,11 +5,11 @@ parent: 2. Projektmanagement
 nav_order: 6
 ---
 
-# 2.X Tools & Software
+# 2.6 Tools & Software
 
 Diese Semesterarbeit wird mit verschieden Tools unterstützt und ergänzt.
 
-## 2.X.X GitHub Projects
+## 2.6.X GitHub Projects
 Die Tickets und das Zeitmanagement wird umgesetzt mit Hilfe von [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects). Da
 
 ### Sprint Board
