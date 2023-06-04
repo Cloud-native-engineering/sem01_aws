@@ -11,6 +11,8 @@ Damit Amazon den AWS Dienst betreiben existiert ein ausgeklügeltes System für 
 
 Wegen diesem Aufbau ist es möglich in AWS hochverfügbare und kritische Services zu betreiben, welche die Daten in verschiedenen Physischen Rechenzentren gespeichert hat.
 
+![2023_aws_structure](../../ressources/images/2023_aws_structure.svg)
+
 ## 3.3.2 Rechenzentrum
 
 Ein Rechenzentrum ist ein physikalisches Gebäude in welchem die Server stationiert sind. Die AWS Rechenzentren werden diskret betrieben und besitzen redundante Stromversorgung, Netzwerke und Kühlung.
