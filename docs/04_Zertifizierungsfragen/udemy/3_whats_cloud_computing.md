@@ -18,7 +18,7 @@ nav_order: 1
 <details>
   <summary>Lösung</summary>
 
-  **Platform as a Service**
+  <b>Platform as a Service</b>
 
   Mit dem Platform as a Service Model, musst du nur die Daten und die Applikation verwalten.
 </details>
