@@ -33,10 +33,9 @@ nav_order: 1
 
 <details>
   <summary>Lösung</summary>
-
-  **Pay-as-you-go pricing**
-
-  In Cloud-computing werden nur kosten bezahlt was man gebraucht hat.
+  <b>Pay-as-you-go pricing</b>
+  <br>
+  <p>In Cloud-computing werden nur kosten bezahlt was man gebraucht hat.</p>
 </details>
 
 ---
@@ -49,10 +48,9 @@ nav_order: 1
 
 <details>
   <summary>Lösung</summary>
-
-  **Availability Zones**
-
-  Das ist die definition einer Availability Zone.
+  <b>Availability Zones</b>
+  <br>
+  <p>Das ist die definition einer Availability Zone.</p>
 </details>
 
 ---
@@ -66,8 +64,7 @@ nav_order: 1
 
 <details>
   <summary>Lösung</summary>
-
-  **Dedicated Support Agent to help you deploy applications**
+  <b>Dedicated Support Agent to help you deploy applications</b>
 </details>
 
 ---
@@ -81,10 +78,7 @@ nav_order: 1
 
 <details>
   <summary>Lösung</summary>
-
-  **Compute, Storage, and Data Transfer out of the AWS Cloud**
-
-  Genauere Informationen dazu findet man hier: [AWS Pricing Model](../03_Learningpath/pricing.md)
+  <b>Compute, Storage, and Data Transfer out of the AWS Cloud</b>
 </details>
 
 ---
@@ -98,10 +92,9 @@ nav_order: 1
 
 <details>
   <summary>Lösung</summary>
-
-  **Capacity availability**
-
-  Die Kapazität in der Cloud ist unbeschränkt, dazu muss sich der Kunde keine Gedanken machen. Die Planung macht AWS.
+  <b>Capacity availability</b>
+  <br>
+  <p>Die Kapazität in der Cloud ist unbeschränkt, dazu muss sich der Kunde keine Gedanken machen. Die Planung macht AWS.</p>
 </details>
 
 ---
@@ -115,10 +108,9 @@ nav_order: 1
 
 <details>
   <summary>Lösung</summary>
-
-  **Train your employees less**
-  
-  Die Mitarbeiter müssen für die Verwendung der Cloud geschult werden.
+  <b>Train your employees less</b>
+  <br>
+  <p>Die Mitarbeiter müssen für die Verwendung der Cloud geschult werden.</p>
 </details>
 
 ---
@@ -131,10 +123,9 @@ nav_order: 1
 
 <details>
   <summary>Lösung</summary>
-
-  **Three or more Availability Zones**
-
-  AWS Regionen beinhalten mehrere physikalisch getrennte Rechenzentren, welche geografisch getrennt sind.
+  <b>Three or more Availability Zones</b>
+  <br>
+  <p>AWS Regionen beinhalten mehrere physikalisch getrennte Rechenzentren, welche geografisch getrennt sind.</p>
 </details>
 
 ---
@@ -148,10 +139,9 @@ nav_order: 1
 
 <details>
   <summary>Lösung</summary>
-
-  **IAM**
-
-  Die Identitätfestestellung und die Authentifizierung wird von AWS Global geregelt und gesteuert.
+  <b>IAM</b>
+  <br>
+  <p>Die Identitätfestestellung und die Authentifizierung wird von AWS Global geregelt und gesteuert.</p>
 </details>
 
 ---
@@ -165,8 +155,7 @@ nav_order: 1
 
 <details>
   <summary>Lösung</summary>
-
-  **On-demand availability of computer system resources, especially data storage (cloud storage) and computing power, without direct active management by the user**
+  <b>On-demand availability of computer system resources, especially data storage (cloud storage) and computing power, without direct active management by the user</b>
 </details>
 
 ---
@@ -180,10 +169,9 @@ nav_order: 1
 
 details>
   <summary>Lösung</summary>
-
-  **Shared Responsibility Model**
-
-  Mehr Infos dazu unter <a href="https://aws.amazon.com/de/compliance/shared-responsibility-model/">Shared Responsibility Model</a>.
+  <b>Shared Responsibility Model</b>
+  <br>
+  <p>Mehr Infos dazu unter <a href="https://aws.amazon.com/de/compliance/shared-responsibility-model/">Shared Responsibility Model</a>.</p>
 </details>
 
 ---
@@ -196,10 +184,9 @@ details>
 
 <details>
   <summary>Lösung</summary>
-
-  **Hybrid Cloud**
-
-  Bei einer Hybrid Cloud kann selber aufgeteilt werden, was in der Cloud passieren soll und was man lieber on Premise gehostet haben will.
+  <b>Hybrid Cloud</b>
+  <br>
+  <p>Bei einer Hybrid Cloud kann selber aufgeteilt werden, was in der Cloud passieren soll und was man lieber on Premise gehostet haben will.</p>
 </details>
 
 ---
@@ -213,9 +200,7 @@ details>
 
 <details>
   <summary>Lösung</summary>
-
-  **Run analytics on stolen content**
-
-  Weitere Informationen können aus der <a href="https://d1.awsstatic.com/legal/acceptable-use-policy/AWS_Acceptable_Use_Policy-German_Translation.pdf">AWS Richtlinie zur Nutzung von AWS</a> nachgelesen werden.
-
+  <b>Run analytics on stolen content</b>
+  <br>
+  <p>Weitere Informationen können aus der <a href="https://d1.awsstatic.com/legal/acceptable-use-policy/AWS_Acceptable_Use_Policy-German_Translation.pdf">AWS Richtlinie zur Nutzung von AWS</a> nachgelesen werden.</p>
 </details>
