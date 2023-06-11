@@ -2,7 +2,7 @@
 layout: default
 title: 3.8 Identity and Access Management
 parent: 3. Learningpath
-nav_order: 7
+nav_order: 8
 ---
 
 # 3.8 Identity and Access Management - IAM
@@ -26,6 +26,7 @@ Die IAM Policy wird als JSON-Dokument beschrieben. Es Beschreibt auf welche Ress
 ## 3.8.4 IAM Role
 
 Eine IAM Rolle ist ähnlich wie ein IAM User. Eine Rolle kann mehreren Benutzer zugeordnet werden und ermöglicht ihnen ihnen in diese Rolle zu wechseln, somit können sie andere Aktionen ausführen.
+Es kann zum Beispiel eine Rolle an eine EC2 Instance zugewiesen werden. Dies ermöglicht, der Instance auf Andere Ressource zuzugreifen, ohne Username und Password zu konfigurieren.
 
 ## 3.8.5 Multi-Factor Authentication - MFA
 

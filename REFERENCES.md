@@ -12,6 +12,7 @@
 - Udemy - (2023.05.01), udemy.com, [Ultimate AWS Certified Practitioner - Kurs](https://www.udemy.com/course/aws-certified-cloud-practitioner-new)
 - AWS Academy - (2023.05.01), awsacademy.com, [AWS Academy Cloud Foundations - Kurs](https://awsacademy.instructure.com)
 - ITCNE AWS-Base - (2023.03.01), gitlab.com, [AWS-Base](https://gitlab.com/ch-tbz-wb/Stud/aws-base)
+- Amazon - (2023-06.05), amazon.com, [EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/)
 
 
 ---
