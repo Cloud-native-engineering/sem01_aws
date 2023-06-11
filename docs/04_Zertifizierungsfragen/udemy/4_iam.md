@@ -3,7 +3,7 @@ layout: default
 title: 4.2.2 Identity and Access Management
 parent: 4.2 Udemy Ultimate AWS Certified Cloud Practitioner
 grand_parent: 4. Zertifizierungsfragen
-nav_order: 1
+nav_order: 2
 ---
 
 # 4.2.2 Identity and Access Management
