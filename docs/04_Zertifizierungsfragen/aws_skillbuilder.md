@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 4.3 AWS Skillbuilder
-nav_order: 2
+nav_order: 3
 parent: 4. Zertifizierungsfragen 
 ---
 
