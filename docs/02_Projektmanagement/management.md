@@ -9,7 +9,7 @@ nav_order: 6
 
 Diese Semesterarbeit wird mit verschieden Tools unterstützt und ergänzt.
 
-## 2.6.X GitHub Projects
+## 2.6.1 GitHub Projects
 Die Tickets und das Zeitmanagement wird umgesetzt mit Hilfe von [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects). Da
 
 ### Sprint Board
@@ -44,18 +44,18 @@ Jedes Ticket hat folgende Werte gesetzt und definiert.
   Damit die Tickets immer den gleichen Aufbau haben wurde ein Template erstellt und eingerichtet.
 </details>
 
-## 2.X.X GitHub Repository
+## 2.6.2 GitHub Repository
 
 Diese Arbeit wird in Markdown geschrieben. Die Files davon werden in einem Git-Repository in GitHub abgelegt.
 
-## 2.X.X GitHub Actions
+## 2.6.3 GitHub Actions
 
 [GitHub Actions](https://github.com/features/actions) ist eine CI/CD Lösung von GitHub. Diese ermöglicht dass für die Arbeit eine Pipeline eingesetzt werden kann um die Arbeit zu publizieren.
 
-## 2.X.X GitHub Pages
+## 2.6.4 GitHub Pages
 
 [GitHub Pages](https://pages.github.com/) ermöglicht, dass diese Arbeit als Website angeschaut werden kann. Zusammengefasst ist es ein einfaches Webhosting für statischen Inhalt.
 
-## 2.X.X Jekll
+## 2.6.5 Jekll
 
-Mit Hilfe von [Jekll](https://jekyllrb.com/) werden die Markdown Files in html umgewandelt und ein Theme hinzugefügt. Somit für das ganze UI der Website wurde mit Jekll gemacht
+Mit Hilfe von [Jekll](https://jekyllrb.com/) werden die Markdown Files in html umgewandelt und ein Theme hinzugefügt. Somit für das ganze UI der Website wurde mit Jekll gemacht.

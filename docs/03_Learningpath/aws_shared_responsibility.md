@@ -11,13 +11,13 @@ Bei jedem Betrieb eines Services müssen die Verantwortlichkeiten geklärt sein.
 
 ![aws_shared_responsibility_model](https://d1.awsstatic.com/security-center/Shared_Responsibility_Model_V2.59d1eccec334b366627e9295b304202faf7b899b.jpg)
 
-## 3.X.X AWS Verantwortlichkeit - Sicherheit der Cloud
+## 3.6.1 AWS Verantwortlichkeit - Sicherheit der Cloud
 
 > Security **OF** the Cloud
 
 AWS ist für den physischen Schutz der Infrastruktur verantwortlich. Dazu gehören die alle Services der AWS cloud. Die Infrastruktur besteht aus der Hardware, Software, Netzwerk und die Gebäude.
 
-## 3.X.X Kundenverantwortlichkeit - Sicherheit in der Cloud
+## 3.6.2 Kundenverantwortlichkeit - Sicherheit in der Cloud
 
 > Security **IN** the cloud
 

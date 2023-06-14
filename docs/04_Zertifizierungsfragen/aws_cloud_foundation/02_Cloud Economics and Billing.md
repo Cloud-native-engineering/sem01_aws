@@ -142,13 +142,3 @@ nav_order: 2
   <b>False</b>
 </details>
 
----
-
-## 
-
-<details>
-  <summary>Lösung</summary>
-  <b>XX</b>
-</details>
-
----
