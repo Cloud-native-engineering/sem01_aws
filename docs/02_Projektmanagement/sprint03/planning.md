@@ -15,6 +15,14 @@ nav_order: 1
 
 ## Sprint Ziele
 
+- Durchführen der Hands-on-Projekte
+  - Offsite Backup 2 S3 (Milestone/Story: [#3](https://github.com/Cloud-native-engineering/sem01_aws/milestone/3))
+  - Website on S3 (Milestone/Story: [#3](https://github.com/Cloud-native-engineering/sem01_aws/milestone/4))
+  - Loadbalancing Lab (Milestone/Story: [#3](https://github.com/Cloud-native-engineering/sem01_aws/milestone/8))
+- Abschluss des Udemy Kurses
+- Abschluss der Semesterarbeit
+- Reflexion des Lernprozesses
+
 ## Scrum Board
 
 - [GitHub Projects](https://github.com/orgs/Cloud-native-engineering/projects/3)
