@@ -10,19 +10,35 @@ nav_order: 3
 
 ## Review Sprint Ziele
 
-| **Sprint Ziel** | **Status** |
-| --------------- | ---------- |
-|                 |            |
+| **Sprint Ziel**                | **Status** |
+| ------------------------------ | ---------- |
+| Durcharbeiten des Udemy Kurses | 91%        |
+| Dokumentation der AWS Cloud    | 100%       |
+| AWS Academy Kurs abschliessen  | 100%       |
+| Beginn mit Hands-on-Projekte   | 0%         |
 
 ## Status Project Board
 
+![2023_Projektplanung_Sprint02](../../../ressources/images/20230614_Projektplanung_Sprint02.png)
+
 | **Total Tickets** | **Abgeschlossene Tickets** | **Nicht abgeschlossene Tickets** | **Prozentsatz** |
 | :---------------: | -------------------------- | -------------------------------- | --------------- |
-|                   |                            |                                  |                 |
+|        40         | 38                         | 2                                | 95%             |
 
 ## Anpassungen am Projekt?
 
+Der Aufwand der Kursinhalte wurde unterschätzt. Es wurde entschieden, dass das Sprint Ziel "Beginn mit Hands-on-Projekte" in den nächsten Sprint verschoben wird.
+
 ## Notizen / Anmerkungen
+
+Dieser Sprint widmete sich ganz nach dem persönlichen Lernprozess. Dazu wurden verschiedene Kurse absolviert. Es wurde der AWS Academy und der Udemy Kurs gemacht. Beide Kurse hatten eine sehr gute Qualität und waren sehr hilfreich.
+
+Folgende zwei Tasks konnten noch nicht abgeschlossen werden:
+
+- [#42](https://github.com/Cloud-native-engineering/sem01_aws/issues/42)
+- [#43](https://github.com/Cloud-native-engineering/sem01_aws/issues/43)
+
+Der Grund dafür ist, dass diese Task zeitlich noch nicht ganz bearbeitet werden konnten. Es wurde der zeitliche Aufwand für die Kurse unterschätzt.
 
 ---
 
