@@ -12,6 +12,14 @@ Im Sprint Retro wird über der vergangene Sprint repetiert. Es bietet die Mögli
 
 ## Keep / Beibehalten
 
+- Optimales arbeiten mit GitHub (Pages/Jekll/Markdown)
+- Sauberes Arbeiten
+- sehr gute Motivation
+
 ## Drop / Stopp
 
+- Weniger Dokumentation
+
 ## Try / Ausprobieren
+
+- Mehr praktische Lerninhalte (vertiefen des Gelernten durch praktisches Anwenden)
