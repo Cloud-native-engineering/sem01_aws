@@ -16,4 +16,5 @@
 - GitHub - (2023.02.01), docs.github.com, [Dokumentation GitHub Projects](https://docs.github.com/en/pages)
 - GitHub - (2023.02.01), docs.github.com, [Dokumentation GitHub Actions](https://docs.github.com/en/actions)
 - GitHub - (2023.02.01), docs.github.com, [Dokumentation GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
-- Jekyll - (23.05.01), jekyllrb.com, [Dokumentation Jekyll](https://jekyllrb.com/docs/)
+- Jekyll - (2023.05.01), jekyllrb.com, [Dokumentation Jekyll](https://jekyllrb.com/docs/)
+- Amazon - (2023.06.13), amazon.com, [AWS Database Services](https://aws.amazon.com/products/databases/)
