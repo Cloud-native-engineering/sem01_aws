@@ -13,8 +13,7 @@
 - AWS Academy - (2023.05.01), awsacademy.com, [AWS Academy Cloud Foundations - Kurs](https://awsacademy.instructure.com)
 - ITCNE AWS-Base - (2023.03.01), gitlab.com, [AWS-Base](https://gitlab.com/ch-tbz-wb/Stud/aws-base)
 - Amazon - (2023-06.05), amazon.com, [EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/)
-
-
----
-TMP Vorlage
-- Scale Agile Framework - (2023.05.10), scaledagileframework.com, [Zusammenfassung Business Owner](https://scaledagileframework.com/business-owners/)
+- GitHub - (2023.02.01), docs.github.com, [Dokumentation GitHub Projects](https://docs.github.com/en/pages)
+- GitHub - (2023.02.01), docs.github.com, [Dokumentation GitHub Actions](https://docs.github.com/en/actions)
+- GitHub - (2023.02.01), docs.github.com, [Dokumentation GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
+- Jekyll - (23.05.01), jekyllrb.com, [Dokumentation Jekyll](https://jekyllrb.com/docs/)
