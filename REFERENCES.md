@@ -18,3 +18,4 @@
 - GitHub - (2023.02.01), docs.github.com, [Dokumentation GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
 - Jekyll - (2023.05.01), jekyllrb.com, [Dokumentation Jekyll](https://jekyllrb.com/docs/)
 - Amazon - (2023.06.13), amazon.com, [AWS Database Services](https://aws.amazon.com/products/databases/)
+- Amazon - (2023.06.15), amazon.com, [S3 Glacier Data Encryption](https://docs.aws.amazon.com/amazonglacier/latest/dev/DataEncryption.html)
