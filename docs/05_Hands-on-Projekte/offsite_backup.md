@@ -26,7 +26,7 @@ In diesem Projekt wird hauptsächlich der S3 Service von AWS angesprochen. Grund
 
 Für den "Proof of Concept" (PoC) wird ein normaler S3 Service benutzt. Dies wurde so gewählt, damit ein Restore schnell und kostengünstig getestet werden kann.
 
-Für einen **produktiven** Einsatz sollte aber die S3 Glacier Produktpalette von AWS gewählt werden, da diese für langzeit Backups kostengünstiger sind. Es muss aber beachtet werden, dass der Zugriff um die Daten herunterzuladen länger dauern kann. Dies ist aber bei einem Offsite Backup nicht sehr wichtig, da dies meistens nur als Notfallwiederherstellung gebraucht werden und nicht regelmässig.
+Für einen **produktiven** Einsatz sollte aber die S3 Glacier Produktpalette von AWS gewählt werden, da diese für langzeit Backups kostengünstiger sind. Es muss aber beachtet werden, dass der Zugriff um die Daten herunterzuladen länger dauern kann. Dies ist aber bei einem Offsite Backup nicht sehr wichtig, da dies meistens nur als Notfallwiederherstellung gebraucht werden und nicht regelmässig. Bei einem S3 Produkt von Glacier werden die Daten verschlüsselt. Die Verschlüsselungsschlüssel werden dabei von AWS verwaltet. Der Kunde kann aber zusätzlich bevor er die Daten in den S3 lädt bei sich verschlüsseln. Somit hat AWS nie zugriff auf die Unverschlüsselten Daten
 
 ## 5.1.2 Kostenanalyse
 
@@ -60,5 +60,7 @@ Wenn man diese Berechnung anschaut ist es sehr gut ersichtlich, dass dieses Proj
 > Für 5 Schweizer Franken können 2000 GB Daten in einem S3 Glacier Deep Archive gespeichert werden!
 
 ## 5.1.3 Umsetzung
+
+
 
 ## 5.1.3 Fazit

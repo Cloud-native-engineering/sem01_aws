@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2.3 Systemabrenzung
-parent: 2. Projektmanagement
+parent: 2. Projektorganisation
 nav_order: 3
 ---
 

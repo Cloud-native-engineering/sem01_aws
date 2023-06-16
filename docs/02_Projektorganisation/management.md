@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2.6 Tools & Software
-parent: 2. Projektmanagement
+parent: 2. Projektorganisation
 nav_order: 6
 ---
 
