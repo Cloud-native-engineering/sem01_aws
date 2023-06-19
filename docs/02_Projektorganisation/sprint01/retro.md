@@ -2,7 +2,7 @@
 layout: default
 title: 2.7.4 Sprint Retro
 parent: 2.7 Sprint 01
-grand_parent: 2. Projektmanagement
+grand_parent: 2. Projektorganisation
 nav_order: 4
 ---
 

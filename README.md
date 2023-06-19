@@ -5,7 +5,7 @@ Amazon Web Services, auch AWS genannt, ist eine der führenden Cloud-Plattformen
 ## Inhaltsverzeichnis
 
 [1. Einleitung](index.md)  
-[2. Projektmanagement](Change_ME)  
+[2. Projektorganisation](Change_ME)  
 [2.1 Projektantrag](Change_ME)  
 [2.2 Systemabgrenzungen](Change_ME)  
 [2.3 SWAT Analyse](Change_ME)  
