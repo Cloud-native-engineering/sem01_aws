@@ -33,4 +33,4 @@ jobs:
           aws-region: ${{ vars.AWS_REGION }}
       - name: Deploy to S3
         run: |
-          aws s3 sync _site s3://${{ vars.AWS_BUCKET_NAME }} --acl public-read --delete
+          aws s3 sync ./_site s3://${{ vars.AWS_BUCKET_NAME }} --acl public-read --delete
