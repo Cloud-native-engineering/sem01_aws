@@ -19,3 +19,4 @@
 - Jekyll - (2023.05.01), jekyllrb.com, [Dokumentation Jekyll](https://jekyllrb.com/docs/)
 - Amazon - (2023.06.13), amazon.com, [AWS Database Services](https://aws.amazon.com/products/databases/)
 - Amazon - (2023.06.15), amazon.com, [S3 Glacier Data Encryption](https://docs.aws.amazon.com/amazonglacier/latest/dev/DataEncryption.html)
+- Amazon - (2023.06.20), amazon.com, [Host a static website on S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html)
