@@ -1,7 +1,9 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gemspec
+gem "jekyll", "~> 4.3"
 
+gem "jekyll-seo-tag", ">= 2.0"
+gem "rake", ">= 12.3.1"
+
+# docs-only
 gem "jekyll-github-metadata", ">= 2.15"
-gem 'jekyll', '~> 4.2'
-gem "webrick", "~> 1.7"
