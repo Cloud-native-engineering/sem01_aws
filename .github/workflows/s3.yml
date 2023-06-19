@@ -37,6 +37,8 @@ jobs:
           aws-region: ${{ vars.AWS_REGION }}
       - name: Download artifacts
         uses: actions/download-artifact@v1
+        with:
+          name: github-pages
       - name: Deploy to S3
         run: |
           aws s3 sync ./_site/ s3://${{ vars.AWS_BUCKET_NAME }} --delete
