@@ -1,0 +1,18 @@
+{
+  "Version": "2012-10-17",
+  "Id": "PolicyForWebsiteEndpointsPublicContent",
+  "Statement": [
+    {
+      "Effect":"Allow",
+      "Action":[
+        "s3:PutObject",
+        "s3:DeleteObject",
+        "s3:GetObject"
+      ],
+      "Resource": [
+        "arn:aws:s3:::itcne23-sem01-website",
+        "arn:aws:s3:::itcne23-sem01-website/*"
+      ]
+    }
+  ]
+}
