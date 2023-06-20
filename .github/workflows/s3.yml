@@ -18,7 +18,7 @@ jobs:
 
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build 
+        run: bundle exec jekyll build --config ressources/artifacts/s3_website/s3_jekyll.yml
         env:
           JEKYLL_ENV: production
 
