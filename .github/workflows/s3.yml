@@ -24,7 +24,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           artifact-name: jekyll-build
-          path: ./_site
+          path: ./_site 
 
 
   deploy:
