@@ -56,6 +56,8 @@ Berechnungen: [2023_Costs_AWS_offsiteBackup.pdf](../../ressources/artifacts/2023
 
 Wenn man diese Berechnung anschaut ist es sehr gut ersichtlich, dass dieses Projekt auch für Privatpersonen sehr Wirtschaftlich ist. Die Kosten können optimiert werden, wenn die richtige Speicherklasse verwendet wird.
 
+Im Falle eines Restores in einer kostengünstigen Glacier Speicherklasse können erhöhte Kosten entstehen. Für einen standard restore von 2000 GB Daten muss mit ~40.00 CHF gerechnet werden.
+
 > Für 5 Schweizer Franken können 2000 GB Daten in einem S3 Glacier Deep Archive gespeichert werden!
 
 ## 5.1.3 Umsetzung
