@@ -3,7 +3,6 @@ layout: default
 title: 5.2. Host Website on S3
 nav_order: 2
 parent: 5. Hands-on-Projekte
-has_children: true
 ---
 
 # 5.2 Host Website on S3
