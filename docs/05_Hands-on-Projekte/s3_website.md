@@ -86,7 +86,7 @@ Rückblickend muss ich sagen, dass alle Anforderungen an dieses Hands-on-Projekt
 
 Wie bei jedem Projekt gibt es mögliche Punkte, welche optimiert werden könnten.
 
-### AWS Berechtigungen
+#### AWS Berechtigungen
 
 In Hinsicht auf die Sicherheit würde die Verwendung von kurzlebigen Zugriffsschlüssel mehr Sinn ergeben. Access Keys (Access Key & Secret Access Key) sollte nicht verwendet werden, da diese langlebig sind. Es könnte somit passieren, wenn jemand schreibrechte zum GitHub Repository hat, dass er diese in den Output von der CI/CD Pipline ausgibt. Somit könnten den Zugriff auf den S3-Bucket komprimiert werden.
 
