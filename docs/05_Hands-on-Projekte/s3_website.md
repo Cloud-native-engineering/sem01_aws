@@ -39,7 +39,7 @@ In diesem Projekt wird zu allen Ressourcen ein Tag "project_Name" gesetzt. Damit
 
 <details>
   <summary>aws cli commands</summary>
-  ```bash
+  <code>
     # Create an S3 Bucket
     aws s3api create-bucket \
       --bucket <BUCKET-NAME> \
@@ -72,7 +72,7 @@ In diesem Projekt wird zu allen Ressourcen ein Tag "project_Name" gesetzt. Damit
     aws iam attach-user-policy \
       --policy-arn arn:aws:iam:<ACCOUNT-ID>:aws:policy/s3_website_write \
       --user-name Alice
-  ```
+  </code>
 </details>
 
 ## 5.2.3 Testing
