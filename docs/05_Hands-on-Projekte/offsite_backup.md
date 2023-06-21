@@ -3,7 +3,6 @@ layout: default
 title: 5.1 Offsite Backup
 nav_order: 1
 parent: 5. Hands-on-Projekte
-has_children: true
 ---
 
 # 5.1 Offsite Backup
