@@ -37,45 +37,40 @@ In diesem Projekt wird zu allen Ressourcen ein Tag "project_Name" gesetzt. Damit
     2. Pipeline ins GitHub Repository setzen unter ".github/workflows/s3.yml". [workflow-example](../../ressources/artifacts/s3_website/s3.yml)
 4. Nun wird bei einem Push auf das Repository die Pipeline ausgeführt und die Website auf den S3 publiziert.
 
-<details>
-  <summary>aws cli commands</summary>
+```bash
+# Create an S3 Bucket
+aws s3api create-bucket \
+  --bucket <BUCKET-NAME> \
+  --region eu-central-2 \
+  --create-bucket-configuration LocationConstraint=eu-central-2
 
-    ```bash
-    # Create an S3 Bucket
-    aws s3api create-bucket \
-      --bucket <BUCKET-NAME> \
-      --region eu-central-2 \
-      --create-bucket-configuration LocationConstraint=eu-central-2
+# Disable "public-access-block"
+aws s3api put-public-access-block \
+  --bucket <BUCKET-NAME> \
+  --public-access-block-configuration "BlockPublicAcls=false,IgnorePublicAcls=false,BlockPublicPolicy=false,RestrictPublicBuckets=false"
 
-    # Disable "public-access-block"
-    aws s3api put-public-access-block \
-      --bucket <BUCKET-NAME> \
-      --public-access-block-configuration "BlockPublicAcls=false,IgnorePublicAcls=false,BlockPublicPolicy=false,RestrictPublicBuckets=false"
+# Upload publicRead Policy
+aws s3api put-bucket-policy \
+  --bucket <BUCKET-NAME> \
+  --policy file://<PATH-TO-JSON-FILE>
 
-    # Upload publicRead Policy
-    aws s3api put-bucket-policy \
-      --bucket <BUCKET-NAME> \
-      --policy file://<PATH-TO-JSON-FILE>
+# Enable static website hosting
+aws s3 website s3://<BUCKET-NAME>/ --index-document index.html --error-document error.html
 
-    # Enable static website hosting
-    aws s3 website s3://<BUCKET-NAME>/ --index-document index.html --error-document error.html
-
-    # Create IAM Policy
-    aws iam create-policy \
-      --policy-name s3_website_write \
-      --policy-document file://<PATH-TO-JSON-FILE>
+# Create IAM Policy
+aws iam create-policy \
+  --policy-name s3_website_write \
+  --policy-document file://<PATH-TO-JSON-FILE>
   
-    # Create user for CI/CD access
-    aws iam create-user \
-      --user s_s3_website
+# Create user for CI/CD access
+aws iam create-user \
+  --user s_s3_website
   
-    # Attach policy to user
-    aws iam attach-user-policy \
-      --policy-arn arn:aws:iam:<ACCOUNT-ID>:aws:policy/s3_website_write \
-      --user-name Alice
-    ```
-
-</details>
+# Attach policy to user
+aws iam attach-user-policy \
+  --policy-arn arn:aws:iam:<ACCOUNT-ID>:aws:policy/s3_website_write \
+  --user-name Alice
+```
 
 ## 5.2.3 Testing
 
