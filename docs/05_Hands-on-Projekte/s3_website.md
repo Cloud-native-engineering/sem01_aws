@@ -18,7 +18,7 @@ Der S3 Service von Amazon AWS ermöglicht [statische Websiten zu hosten](https:/
 
 Es ist mit sehr kleinen Kosten zu rechnen. Wenn die HTML-Files und die Bilder kleiner als 5 GB Speicher sind, ist mit keinen Kosten zu rechen. Grund dafür ist das Amazon einen [Free Tier](https://aws.amazon.com/free) anbietet.
 
-# 5.2.2 Umsetzung
+## 5.2.2 Umsetzung
 
 In diesem Projekt wird zu allen Ressourcen ein Tag "project_Name" gesetzt. Damit ist besser ersichtlich, welche Ressourcen erstellt wurden.
 
@@ -39,7 +39,8 @@ In diesem Projekt wird zu allen Ressourcen ein Tag "project_Name" gesetzt. Damit
 
 <details>
   <summary>aws cli commands</summary>
-  <code>
+
+    ```bash
     # Create an S3 Bucket
     aws s3api create-bucket \
       --bucket <BUCKET-NAME> \
@@ -72,7 +73,8 @@ In diesem Projekt wird zu allen Ressourcen ein Tag "project_Name" gesetzt. Damit
     aws iam attach-user-policy \
       --policy-arn arn:aws:iam:<ACCOUNT-ID>:aws:policy/s3_website_write \
       --user-name Alice
-  </code>
+    ```
+
 </details>
 
 ## 5.2.3 Testing
