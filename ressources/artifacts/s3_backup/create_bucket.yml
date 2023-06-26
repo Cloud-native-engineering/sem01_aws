@@ -1,0 +1,41 @@
+---
+
+- name: "Create an S3 Bucket for the offsite backup"
+  hosts: localhost
+  become: false
+  gather_facts: false
+
+  vars:
+    deploy_state: "present"
+    s3_bucket_name: "itcne23-sem01-offsite"
+    s3_bucket_region: "eu-central-2"
+    s3_bucket_acl: "BucketOwnerEnforced"
+    s3_bucket_tags:
+      Name: "offsiteBackup"
+      Environment: "Production"
+      Project_Name: "offsiteBackup"
+    s3_iam_backup_user: "s_offsite_backup"
+
+  tasks:
+    - name: "Create IAM user {{ s3_iam_backup_user }}"
+      amazon.aws.iam_user:
+        name: "{{ s3_iam_backup_user }}"
+        state: "{{ deploy_state }}"
+        tags: "{{ s3_bucket_tags }}"
+
+    - name: "Create IAM policy"
+      amazon.aws.iam_policy:
+        iam_type: user
+        iam_name: "{{ s3_iam_backup_user }}"
+        policy_name: "s3_offsiteBackup_write"
+        state: "{{ deploy_state }}"
+        policy_json: "{{ lookup('file', 's3_iam_policy.json') }}"
+      when: deploy_state == "present"
+
+    - name: "Create S3 Bucket"
+      amazon.aws.s3_bucket:
+        name: "{{ s3_bucket_name }}"
+        region: "{{ s3_bucket_region }}"
+        object_ownership: "{{ s3_bucket_acl }}"
+        tags: "{{ s3_bucket_tags }}"
+        state: "{{ deploy_state }}"
