@@ -99,14 +99,8 @@ ansible-playbook create_bucket.yml -e deploy_state=absent
 Danach muss noch der Sync auf dem NAS eingerichtet werden. dazu sind folgende Schritte notwendig:
 
 1. Hinzufügen der Cloud Credentials (System > Cloud Credentials)
-  1. <details>
-      <summary>screenshot</summary>
-      <img src="../../ressources/images/2023_offsiteBackup_CloudCredentials.png">
-      </details>
+    1. <details><summary>screenshot</summary><img src="../../ressources/images/2023_offsiteBackup_CloudCredentials.png"></details>
 2. Erstellen eines Cloud Sync Tasks (Tasks > Cloud Sync)
-  1. <details>
-      <summary>screenshot</summary>
-      <img src="../../ressources/images/2023_offsiteBackup_CloudSyncTask.png">
-      </details>
+    1. <details><summary>screenshot</summary><img src="../../ressources/images/2023_offsiteBackup_CloudSyncTask.png"></details>
 
 ## 5.1.3 Fazit
