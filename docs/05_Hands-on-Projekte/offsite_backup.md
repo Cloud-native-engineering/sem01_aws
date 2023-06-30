@@ -42,7 +42,7 @@ Um ein die Kosten besser einschätzen zu können wurde der [AWS Pricing Calculat
 
 ### Fallbeispiel
 
-In diesem Beispiel sollen 2'000 GB Daten in AWS als offsite Backup gespeichert werden. Ein Restore wird in diesem Beispiel nicht eingerechnet.
+In diesem Beispiel sollen 2'000 GB Daten in AWS als offsite Backup gespeichert werden. Die Datenresidenz ist in diesem Fallbeispiel in Zürich. Ein Restore wird in diesem Beispiel nicht eingerechnet.
 
 |        **Speicherklasse**       | **Monatliche Kosten** |
 |:-------------------------------:|:---------------------:|
@@ -62,6 +62,59 @@ Im Falle eines Restores in einer kostengünstigen Glacier Speicherklasse können
 
 ## 5.1.3 Umsetzung
 
+Dieses Projekt wurde umgesetzt mit Hilfe von Ansible. Die Infrastruktur und die Berechtigungen werden komplett mit Ansible aufgesetzt.
+Ansible macht folgende Schritte:
 
+1. IAM
+    1. Erstellen eines IAM Benutzer für das NAS
+    2. Hinzufügen einer Policy, welche ermöglicht auf den S3-Bucket zu schreiben.
+2. S3-Bucket
+    1. Erstellen eines S3-Buckets
+    2. Berechtigungen und Policies setzen
 
-## 5.1.3 Fazit
+### Deploy
+
+Folgende Requirements müssen erfüllt sein, damit die Automatisierung funktioniert:
+
+- AWS CLI (Installiert & Konfiguriert)
+- [Ansible installiert](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
+- Ansible [AWS Collection](https://docs.ansible.com/ansible/latest/collections/amazon/aws) installiert
+
+### Install
+
+```bash
+cd ressources/artifacts/s3_backup/
+
+ansible-playbook create_bucket.yml
+```
+
+### Remove
+
+```bash
+cd ressources/artifacts/s3_backup/
+
+ansible-playbook create_bucket.yml -e deploy_state=absent
+```
+
+Danach muss noch der Sync auf dem NAS eingerichtet werden. dazu sind folgende Schritte notwendig:
+
+1. Hinzufügen der Cloud Credentials (System > Cloud Credentials)
+    1. <details><summary>screenshot</summary><img src="../../ressources/images/2023_offsiteBackup_CloudCredentials.png"></details>
+2. Erstellen eines Cloud Sync Tasks (Tasks > Cloud Sync)
+    1. <details><summary>screenshot</summary><img src="../../ressources/images/2023_offsiteBackup_CloudSyncTask.png"></details>
+
+> Beim hinzufügen der Credentials kann eine Fehlermeldung auftauchen, da die IAM Policy keine Rechte hat alle Bucket im Account aufzulisten. Dies ist aber ein gewollter Sachverhalt und der Bucket-name muss nachher beim nächsten Schritt manuell eingegeben werden. Es wurde absichtlich auf diese Policy verzichtet, da diese Global gegeben werden muss. Aber in Sicht auf die Sicherheit wurde diese Policy weggelassen.
+
+## 5.1.3 Reflexion
+
+Dieses Projekt hat sehr gut gezeigt, dass ein S3 Bucket auch als Speichermedium für ein Offsite Backup zu gebrauchen ist. Es wurde widerlegt, dass dieser "proof of concept" nur sehr geringe Auswirkungen auf die Kosten hat. Ein monatlicher Betrag von fünf Schweizer Franken kann sehr gut verkraftet werden. Die eigenen Daten können daher in einem AWS Rechenzentrum sicher aufbewahrt werden.
+
+Die Gespeicherten Daten sind "at rest" mit einem Key, welcher AWS managed verschlüsselt. Während dem Transfer in den S3-Bucket ist die Kommunikation mittels TLS/SSL verschlüsselt. Zusätzlich werden die Daten mit einem **eigenen** Verschlüsselungsschlüssel verschlüsselt, bevor diese auf den S3-Bucket kopiert werden. Somit ist AWS, sowie weitere Personen nicht in der Lage die Daten zu lesen, ohne den eigenen Verschlüsselungsschlüssel.
+
+Der Ablauf dieses Projekts hat sehr gut funktioniert. Die einzigen Probleme entstanden beim verknüpfen der IAM Policy mit dem NAS. Das Problem ist darauf zurückzuführen, dass Truenas die Policies prüft. Dabei habe ich in diesem Projekt die Policy "s3:ListAllMyBuckets" absichtlich nicht gegeben, da dies Sicherheitstechnisch nicht gerade sehr schlau ist. Diese Fehlermeldung kann aber ignoriert werden und der Bucket-name muss einfach manuell eingegeben werden, anstatt diesen von einem Drop-Down Menue auszuwählen.
+
+### Mögliche Optimierungen
+
+#### Kostenoptimierung
+
+Der Kostengünstigste Weg ist immer bereits bestehende Datenpakete zu verwenden. Truenas ermöglicht zudem einen Cloud-Sync auf ein OneDrive, Google Drive und viele weiteren Anbieter. Beim Verwenden des Bereits bestehenden Datenvolumen können kosten gespart werden. Beispielweise kommt bei einem Office365 Konto ein TB OneDrive Speicher kostenlos dazu. Diese kann auch verwendet werden. Diese Lösung bietet auch einige Vorteile, da ein Restore "gratis" ist. Auch werden die Daten von Truenas verschlüsselt auf dem OneDrive abgelegt.
