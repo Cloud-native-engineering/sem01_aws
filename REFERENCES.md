@@ -1,4 +1,4 @@
-# Literaturverzeichnis
+# 6. Literaturverzeichnis
 
 - Scale Agile Framework - (2023.05.10), scaledagileframework.com, [Zusammenfassung Business Owner](https://scaledagileframework.com/business-owners/)
 - Scale Agile Framework - (2023.05.10), scaledagileframework.com, [Zusammenfassung Product Owner](https://scaledagileframework.com/product-owner/)
