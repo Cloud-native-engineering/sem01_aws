@@ -34,9 +34,9 @@ Es werden keine Anpassungen am Projekt vorgenommen.
 
 ## Notizen / Anmerkungen
 
-Der Start der Semesterarbeit gelang ohne grosse Hürden. Es wurden sehr viele administrative Arbeiten gemacht. Diese haben leider viel Zeit beansprucht. Diese Tätigkeiten müssen aber während der Dauer des Projektes einmal gemacht werden. Ich denke, dass diese Arbeiten am besten am Anfang gemacht werden sollten, damit keine Konflikte entstehen.
+Der Start der Semesterarbeit gelang ohne grosse Hürden. Es wurden sehr viele administrative Arbeiten erledigt, welche leider sehr viel Zeit beansprucht haben. Für das Projekt sind sie jedoch notwendig. Ich denke, es sinnvoll ist diese Arbeiten zu Beginn durchzuführen, damit keine Konflikte entstehen.
 
-Zu den zwei offenen Tickets. Leider konnten die Tickets mit der Nummer [#14](https://github.com/Cloud-native-engineering/sem01_aws/issues/14) und [#12](https://github.com/Cloud-native-engineering/sem01_aws/issues/12) noch nicht abgeschlossen werden. Dies wird im Projekt nicht kritisch betrachtet, weil an Beiden Tickets schon zum grössten Teil erledigt sind. Beim einten Ticket wurde eine Meinung vom Business Owner eingeholt, weswegen der Task noch nicht erledigt werden konnte. Beim anderen konnte das Ticket aus zeitlichen Gründen noch nicht abgeschlossen werden.
+Zu den zwei offenen Tickets. Leider konnten die Tickets mit der Nummer [#14](https://github.com/Cloud-native-engineering/sem01_aws/issues/14) und [#12](https://github.com/Cloud-native-engineering/sem01_aws/issues/12) noch nicht abgeschlossen werden. Dies wird im Projekt nicht kritisch betrachtet, weil beide Tickets schon zum grössten Teil erledigt sind. Beim dem einen Ticket wurde eine Meinung vom Business Owner angefragt, wobei die Antwort noch ausstehend ist. Deswegen konnte der Task noch nicht erledigt werden. Das andere Ticket konnte aus zeitlichen Gründen noch nicht abgeschlossen werden.
 
 ---
 

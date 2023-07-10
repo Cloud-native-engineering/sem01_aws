@@ -31,14 +31,14 @@ Der Aufwand der Kursinhalte wurde unterschätzt. Es wurde entschieden, dass das 
 
 ## Notizen / Anmerkungen
 
-Dieser Sprint widmete sich ganz nach dem persönlichen Lernprozess. Dazu wurden verschiedene Kurse absolviert. Es wurde der AWS Academy und der Udemy Kurs gemacht. Beide Kurse hatten eine sehr gute Qualität und waren sehr hilfreich.
+Dieser Sprint widmete sich ganz  dem persönlichen Lernprozess. Dazu wurden verschiedene Kurse absolviert. Es wurde der AWS Academy und der Udemy Kurs durchgeführt. Beide Kurse hatten eine sehr gute Qualität und waren hilfreich.
 
 Folgende zwei Tasks konnten noch nicht abgeschlossen werden:
 
 - [#42](https://github.com/Cloud-native-engineering/sem01_aws/issues/42)
 - [#43](https://github.com/Cloud-native-engineering/sem01_aws/issues/43)
 
-Der Grund dafür ist, dass diese Task zeitlich noch nicht ganz bearbeitet werden konnten. Es wurde der zeitliche Aufwand für die Kurse unterschätzt.
+Der Grund dafür ist, dass diese Tasks zeitlich noch nicht ganz bearbeitet werden konnten, da der Zeitaufwand für die Kurse überschätzt wurde.
 
 ---
 
