@@ -1,0 +1,51 @@
+name: Deploy Website on S3
+run-name: Deploy Website on S3
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment: jekyll
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1' # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          cache-version: 0 # Increment this number if you need to re-download cached gems
+
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
+        run: bundle exec jekyll build --config ressources/artifacts/s3_website/s3_jekyll.yml
+        env:
+          JEKYLL_ENV: production
+
+      - name: Upload artifact
+        # Automatically uploads an artifact from the './_site' directory by default
+        uses: actions/upload-artifact@v2
+        with:
+          name: jekyll-build
+          path: ./_site 
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    environment: jekyll
+    steps:
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ vars.AWS_REGION }}
+
+      - name: Download artifacts
+        uses: actions/download-artifact@v2
+        with:
+          name: jekyll-build
+
+      - name: Deploy to S3
+        run: |
+          aws s3 sync . s3://${{ vars.AWS_BUCKET_NAME }} --delete

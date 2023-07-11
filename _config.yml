@@ -1,0 +1,11 @@
+title: Learn AWS
+description: Road to AWS certification
+remote_theme: just-the-docs/just-the-docs
+favicon_ico: "/ressources/images/favicon.ico"
+
+url: https://cloud-native-engineering.github.io/sem01_aws
+
+aux_links:
+  Projektplanung: https://github.com/orgs/Cloud-native-engineering/projects/3
+
+footer_content: "Copyright &copy; 2023 Yves Wetter. Veröffentlicht mit einer <a href=\"https://github.com/Cloud-native-engineering/sem01_aws/tree/main/LICENSE.md\">Creative Commons Attribution-ShareAlike 3.0 Switzerland License</a> Lizenz."
